@@ -56,13 +56,13 @@ logo=(green+"""
  
 
 line=(yellow+"######################################################")
-tversion=(cyan+"\t\t     টুলস ভার্শন : ০.০১ ")
+tversion=(cyan+"\t\t     টুলস Varson : ০.০১ ")
 
 line2=("\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~")
  
 dtls=(yellow+"\t\tMod By : Nahid Hasan\n \t\tm.me/nahid.netrakona")
 
-note=(red+"Note: I wont be responsible fo any illigal activites.")
+note=(red+"Note:কোনো বেআইনি কার্যকলাপের জন্য দায়ী থাকব না।")
 
 print(logo)
 
