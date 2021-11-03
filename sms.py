@@ -47,16 +47,24 @@ end = '\033[0m'
 purple="\033[0;35m"
 
 logo=(green+"""
-Test""")
+ _______    _______    _______   
+(  ____ \  (       )  (  ____ \  
+| (    \/  | () () |  | (    \/  
+| (_____   | || || |  | (_____   
+(_____  )  | |(_)| |  (_____  )  
+      ) |  | |   | |        ) |  
+/\____) |  | )   ( |  /\____) |  
+\_______)  |/     \|  \_______)""")
+ 
 
 line=(yellow+"######################################################")
 tversion=(cyan+"\t\t     টুলস Varson : ০.০১ ")
 
 line2=("\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~")
  
-dtls=(yellow+"\t\tMod By : Nahid Hasan\n \t\tm.me/nahid.netrakona")
+dtls=(yellow+"\t\t Powered By : Nahid Hasan Pranto\n \t\tMessenger:- m.me/nahid.netrakona")
 
-note=(red+"Note:কোনো বেআইনি কার্যকলাপের জন্য দায়ী থাকব না।")
+note=(red+"Note:কোনো বেআইনি কার্যকলাপের জন্য না ")
 
 print(logo)
 
@@ -72,13 +80,13 @@ print(note)
 
 print(line)
 
-print(lightblue+'\t\t1 SMS Can Send Upto 6 SMS')
+print(lightblue+'\t\t [১×৫ +-] 1 লিখলে ৫ টা SMS যাবে')
 
 
 print(' ')
 
-number=str(input(red+"[➙] Number [Ex: 019********] : "))
-amount=int(input(cyan+"[➙] Enter The Amount : "))
+number=str(input(red+"[➙] মোবাইল নাম্বার [Ex: 019********] : "))
+amount=int(input(cyan+"[➙] কতটি পাঠাবেন : "))
 
 url1 = "https://ss.binge.buzz/otp/send/login"
 
