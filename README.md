@@ -8,7 +8,7 @@ N4H1D
 <a href="https://github.com/N4H1D"><img title="Republic of Bangladesh" src="https://img.shields.io/badge/REPUBLIC%20OF-BANGLADESH-green?colorA=%23ff0000&colorB=%23017e40&style=flat"></a> 
 ## WARNING : 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
-## Install
+## Install :
 
 ```python
 apt update -y
@@ -28,14 +28,14 @@ pip install requests
 ```python
 git clone https://github.com/N4H1D/SMS.git
 ```
-## Run
+## Run :
 ```python
 cd SMS
 ```
 ```python
 python sms.py
 ```
-## Single Cod For Termux
+## Single Cod For Termux :
 ```python
 cd $HOME && cd SMS && python sms.py
 ```
