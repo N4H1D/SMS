@@ -10,10 +10,7 @@ N4H1D
 <h2 align="center">
 FOR ANY HELP 🆘
 </h2>
-
-<a href="https://fb.com/AK27H.VAI"><img title="Facebook" src="https://github.com/AK27HVAU/image/blob/main/profile.jpg"></a>
-
-<a href="https://fb.com/AK27H.VAI"><img title="Facebook" src="https://img.shields.io/badge/View-Facebook-blue?style=flat&logo=Facebook"></a>
+<a href="https://fb.com/nahid.netrakona"><img title="Facebook" src="https://img.shields.io/badge/View-Facebook-blue?style=flat&logo=Facebook"></a>
 ## Install
 * apt update -y
 * apt upgrade -y
@@ -23,34 +20,15 @@ FOR ANY HELP 🆘
 * git clone https://github.com/N4H1D/SMS
 
 ## Run
-* cd mail
-* python main.py
-
-## Inbox for user and password 👇
-
-<a href="https://m.me/AK27H.VAI"><img title="Messenger" src="https://img.shields.io/badge/Chat-Messenger-blue?style=flat&logo=messenger"></a>
+* cd SMS
+* python sms.py
+## Single Cod For Termux
+* cd $HOME && cd SMS && python sms.py
 
 ## **Contact With Us**
 
-* Page : https://www.facebook.com/AK27H.VAU
-* Telegram : https://t.me/AK27H.69
-* Instagram : https://www.instagram.com/AK27H.VAI
-* GitHub : https://www.github.com/AK27HBD
+* Page : https://www.facebook.com/nahid.netrakona
+* Telegram : https://t.me/AutoganBD
+* Instagram : https://www.instagram.com/nahid.fee
+* GitHub : https://github.com/N4H1D
 
-
-
-1. 
-2. 
-3. 
-4. pkg install python
-5. 
-5. cd SMS
-6. pip install requests
-7. python sms.py
-
-
-[✓] Single Command Run
-
-[*] cd $HOME && cd SMS && python sms.py
-
-[✓] Now Enjoy SMS
