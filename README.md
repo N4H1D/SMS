@@ -13,13 +13,15 @@ FOR ANY HELP 🆘
 <a href="https://fb.com/nahid.netrakona"><img title="Facebook" src="https://img.shields.io/badge/View-Facebook-blue?style=flat&logo=Facebook"></a>
 
 ## Install
+
+```python
 * apt update -y
 * apt upgrade -y
 * pkg install git -y
 * pkg install python -y
 * pip install requests
 * git clone https://github.com/N4H1D/SMS
-
+```
 ## Run
 * cd SMS
 * python sms.py
