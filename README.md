@@ -7,8 +7,6 @@ N4H1D
 <a href="https://fb.com/nahid.netrakona"><img title="Facebook" src="https://img.shields.io/badge/View-Facebook-blue?style=flat&logo=Facebook"></a>
 <a href="https://github.com/N4H1D"><img title="Republic of Bangladesh" src="https://img.shields.io/badge/REPUBLIC%20OF-BANGLADESH-green?colorA=%23ff0000&colorB=%23017e40&style=flat"></a> 
 
-<h2 align="center">
-
 ## Install
 
 ```python
