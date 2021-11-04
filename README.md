@@ -18,25 +18,31 @@ FOR ANY HELP 🆘
 apt update -y
 ```
 ```python
-* apt upgrade -y
+apt upgrade -y
 ```
 ```python
-* pkg install git -y
+pkg install git -y
 ```
 ```python
-* pkg install python -y
+pkg install python -y
 ```
 ```python
-* pip install requests
+pip install requests
 ```
 ```python
-* git clone https://github.com/N4H1D/SMS
+git clone https://github.com/N4H1D/SMS.git
 ```
 ## Run
-* cd SMS
-* python sms.py
+```python
+cd SMS
+```
+```python
+python sms.py
+```
 ## Single Cod For Termux
-* cd $HOME && cd SMS && python sms.py
+```python
+cd $HOME && cd SMS && python sms.py
+```
 
 ## **Contact With Us**
 
