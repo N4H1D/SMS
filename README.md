@@ -16,10 +16,20 @@ FOR ANY HELP 🆘
 
 ```python
 * apt update -y
+```
+```python
 * apt upgrade -y
+```
+```python
 * pkg install git -y
+```
+```python
 * pkg install python -y
+```
+```python
 * pip install requests
+```
+```python
 * git clone https://github.com/N4H1D/SMS
 ```
 ## Run
