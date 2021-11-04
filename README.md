@@ -15,7 +15,7 @@ FOR ANY HELP 🆘
 ## Install
 
 ```python
-* apt update -y
+apt update -y
 ```
 ```python
 * apt upgrade -y
