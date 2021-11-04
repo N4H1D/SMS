@@ -172,7 +172,7 @@ for i in range (amount):
 	resp4 = requests.post(url4, headers=headers4,data=data4)
 	resp5 = requests.post(url5, headers=headers5, data=data5)
 	resp = requests.post(url6, headers=headers6, data=data6)	
-	print(str(i+1)+green+'.	➙SMS Sent ✅')
+	print(str(i+1)+green+'.	➙Success Requests Sand ⏳⌛')
 	
 print('					')
 print(cyan+'\t\tThanks For Using BD SMS ')
