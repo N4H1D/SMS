@@ -35,7 +35,7 @@ cd SMS
 ```python
 python sms.py
 ```
-## Single Cod For Termux :
+## Single Code For Termux :
 ```python
 cd $HOME && cd SMS && python sms.py
 ```
